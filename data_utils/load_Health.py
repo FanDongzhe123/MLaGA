@@ -15,7 +15,7 @@ def build_pygData(full_text=True, if_test=False):
     main_category = "17_Health_and_Household"
     graph_path = f"../dataset/Health/{main_category}_graph.dgl"
     # graph_path = f"./{main_category}_graph.dgl"
-    img_dir = f"/scratch/df2362/amazon_images_new/{main_category}"
+    img_dir = f"../dataset/amazon_images_new/{main_category}"
 
 
     graph = torch.load(graph_path, weights_only=True)

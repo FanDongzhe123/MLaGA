@@ -12,8 +12,8 @@ import pdb
 
 def build_pygData(full_text=True, if_test=False):
     # graph_path = f"../dataset/VideoGames/{main_category}_graph.dgl"
-    graph_path = f"/vast/df2362/wikiweb2m/data/Wikiweb2mGraph.pt"
-    img_dir = f"/vast/df2362/wikiweb2m/graph_images"
+    graph_path = f"../dataset/wikiweb2m/data/Wikiweb2mGraph.pt"
+    img_dir = f"../dataset/wikiweb2m/graph_images"
 
 
     graphdata_dict = torch.load(graph_path)

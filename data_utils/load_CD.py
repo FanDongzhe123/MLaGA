@@ -15,7 +15,7 @@ def build_pygData(full_text=True, if_test=False):
     main_category = "9_CDs_and_Vinyl"
     # graph_path = f"../dataset/VideoGames/{main_category}_graph.dgl"
     graph_path = f"../dataset/CD/CDGraph.pt"
-    img_dir = f"/scratch/df2362/amazon_images_new/{main_category}"
+    img_dir = f"../dataset/amazon_images_new/{main_category}"
 
 
     graph = torch.load(graph_path, weights_only=True)

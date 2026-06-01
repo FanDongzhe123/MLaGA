@@ -10,8 +10,8 @@ from tqdm import tqdm
 import json
 
 def build_pygData(full_text=True, if_test=False):
-    image_path = f"/vast/df2362/Goodreads/images/"
-    file_path = f"/vast/df2362/Goodreads/"
+    image_path = f"../dataset/Goodreads/images/"
+    file_path = f"../dataset/Goodreads/"
 
 
     node_mapping_dict = torch.load(file_path + "node_mapping.pt")
