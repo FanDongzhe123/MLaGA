@@ -6,7 +6,7 @@ task_type=${3:-'nc'}
 epoch=${4:-1}
 dataset=${5:-'Movies'}
 
-model_path=/scratch/df2362/GraphLLaVA/checkpoints/Movies-Arts-RedditS-CD/graphllava-vicuna-7b-clip_mix-2-10-2-layer-mlp-TIQ_demo-projector_nc-lp_1
+model_path=./checkpoints/Movies-Arts-RedditS-CD/mlaga-vicuna-7b-clip_mix-2-10-2-layer-mlp-TIQ_demo-projector_nc-lp_3
 model_base="lmsys/vicuna-7b-v1.5-16k" #meta-llama/Llama-2-7b-hf
 # model_base="meta-llama/Llama-2-7b-hf"
 # mode="graphllava_llama_2" # use 'llaga_llama_2' for llama and "v1" for others
